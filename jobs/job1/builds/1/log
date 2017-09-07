@@ -1,0 +1,21 @@
+Started by user [8mha:////4KtdzHubR3BDOA6dQr8ALxXeyDJk+9aAnndzo2uNUVUBAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9ssTi0pSMRABoNEDdwgAAAA==[0mvasudha
+Building in workspace /var/lib/jenkins/workspace/job1
+Cloning the remote Git repository
+Cloning repository https://github.com/vasudhan/testing.git
+ > git init /var/lib/jenkins/workspace/job1 # timeout=10
+Fetching upstream changes from https://github.com/vasudhan/testing.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/vasudhan/testing.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/vasudhan/testing.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/vasudhan/testing.git # timeout=10
+Fetching upstream changes from https://github.com/vasudhan/testing.git
+ > git fetch --tags --progress https://github.com/vasudhan/testing.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 20c4c1336a5c1d0dc6e2f87034e7985e9cc2b3e6 (refs/remotes/origin/master)
+Commit message: "Delete vasuda"
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 20c4c1336a5c1d0dc6e2f87034e7985e9cc2b3e6
+First time build. Skipping changelog.
+Finished: SUCCESS

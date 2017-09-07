@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: willem1
+Build-Jdk: 1.8.0_20
+Extension-Name: aws-lambda
+Specification-Title: This plugin adds AWS Lambda invocation and deploy
+ ment abilities to build steps and post build actions
+Specification-Vendor: XT-i
+Implementation-Vendor: XT-i
+Implementation-Title: aws-lambda
+Implementation-Version: 0.5.10
+Group-Id: org.jenkins-ci.plugins
+Short-Name: aws-lambda
+Long-Name: AWS Lambda Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/AWS+Lambda+Plugin
+Plugin-Version: 0.5.10
+Hudson-Version: 1.580.1
+Jenkins-Version: 1.580.1
+Plugin-Dependencies: structs:1.6
+Plugin-Developers: Michael Willemse:cast:
+

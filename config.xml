@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson>
+  <disabledAdministrativeMonitors/>
+  <version>2.60.3</version>
+  <numExecutors>2</numExecutors>
+  <mode>NORMAL</mode>
+  <useSecurity>true</useSecurity>
+  <authorizationStrategy class="hudson.security.GlobalMatrixAuthorizationStrategy">
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:vasudha</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:vasudha</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:vasudha</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:vasudha</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:vasudha</permission>
+    <permission>hudson.model.Computer.Build:vasudha</permission>
+    <permission>hudson.model.Computer.Configure:vasudha</permission>
+    <permission>hudson.model.Computer.Connect:vasudha</permission>
+    <permission>hudson.model.Computer.Create:vasudha</permission>
+    <permission>hudson.model.Computer.Delete:vasudha</permission>
+    <permission>hudson.model.Computer.Disconnect:vasudha</permission>
+    <permission>hudson.model.Computer.Provision:vasudha</permission>
+    <permission>hudson.model.Hudson.Administer:vasudha</permission>
+    <permission>hudson.model.Hudson.Read:user</permission>
+    <permission>hudson.model.Hudson.Read:vasudha</permission>
+    <permission>hudson.model.Item.Build:vasudha</permission>
+    <permission>hudson.model.Item.Cancel:vasudha</permission>
+    <permission>hudson.model.Item.Configure:vasudha</permission>
+    <permission>hudson.model.Item.Create:vasudha</permission>
+    <permission>hudson.model.Item.Delete:vasudha</permission>
+    <permission>hudson.model.Item.Discover:vasudha</permission>
+    <permission>hudson.model.Item.Move:vasudha</permission>
+    <permission>hudson.model.Item.Read:vasudha</permission>
+    <permission>hudson.model.Item.Workspace:vasudha</permission>
+    <permission>hudson.model.Run.Delete:vasudha</permission>
+    <permission>hudson.model.Run.Replay:vasudha</permission>
+    <permission>hudson.model.Run.Update:vasudha</permission>
+    <permission>hudson.model.View.Configure:vasudha</permission>
+    <permission>hudson.model.View.Create:vasudha</permission>
+    <permission>hudson.model.View.Delete:vasudha</permission>
+    <permission>hudson.model.View.Read:vasudha</permission>
+    <permission>hudson.scm.SCM.Tag:vasudha</permission>
+  </authorizationStrategy>
+  <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
+    <disableSignup>false</disableSignup>
+    <enableCaptcha>false</enableCaptcha>
+  </securityRealm>
+  <disableRememberMe>false</disableRememberMe>
+  <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
+  <workspaceDir>${JENKINS_HOME}/workspace/${ITEM_FULLNAME}</workspaceDir>
+  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <markupFormatter class="hudson.markup.EscapedMarkupFormatter"/>
+  <jdks/>
+  <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
+  <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
+  <clouds/>
+  <quietPeriod>5</quietPeriod>
+  <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
+  <views>
+    <hudson.model.AllView>
+      <owner class="hudson" reference="../../.."/>
+      <name>all</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+    </hudson.model.AllView>
+  </views>
+  <primaryView>all</primaryView>
+  <slaveAgentPort>-1</slaveAgentPort>
+  <label></label>
+  <crumbIssuer class="hudson.security.csrf.DefaultCrumbIssuer">
+    <excludeClientIPFromCrumb>false</excludeClientIPFromCrumb>
+  </crumbIssuer>
+  <nodeProperties/>
+  <globalNodeProperties/>
+</hudson>

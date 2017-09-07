@@ -1,0 +1,6 @@
+Started by user [8mha:////4KtdzHubR3BDOA6dQr8ALxXeyDJk+9aAnndzo2uNUVUBAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9ssTi0pSMRABoNEDdwgAAAA==[0mvasudha
+Building in workspace /var/lib/jenkins/workspace/testingbuild
+[testingbuild] $ /bin/sh -xe /tmp/jenkins3033399646554538597.sh
++ echo hllo world
+hllo world
+Finished: SUCCESS
